@@ -2,13 +2,11 @@
 
 # Form implementation generated from reading ui file 'GUI.ui'
 #
-# Created by: PyQt5 UI code generator 5.13.0
+# Created by: PyQt5 UI code generator 5.9.2
 #
 # WARNING! All changes made in this file will be lost!
 
-
 from PyQt5 import QtCore, QtGui, QtWidgets
-
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -93,19 +91,12 @@ class Ui_MainWindow(object):
         self.colonBatchClear.setGeometry(QtCore.QRect(860, 220, 75, 23))
         self.colonBatchClear.setObjectName("colonBatchClear")
         self.colon.addTab(self.Colon, "")
-        self.tab_2 = QtWidgets.QWidget()
-        self.tab_2.setObjectName("tab_2")
-        self.colon.addTab(self.tab_2, "")
         self.message = QtWidgets.QTextEdit(self.mainTab)
         self.message.setGeometry(QtCore.QRect(10, 480, 941, 101))
         self.message.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.message.setTextInteractionFlags(QtCore.Qt.TextSelectableByKeyboard|QtCore.Qt.TextSelectableByMouse)
         self.message.setObjectName("message")
         MainWindow.setCentralWidget(self.mainTab)
-        self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 963, 23))
-        self.menubar.setObjectName("menubar")
-        MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
@@ -127,7 +118,7 @@ class Ui_MainWindow(object):
         self.colonSingleBeginPredict.setText(_translate("MainWindow", "开始识别"))
         self.colonBatchBeginPredict.setText(_translate("MainWindow", "开始识别"))
         self.colonBatchSaveCSV.setText(_translate("MainWindow", "导出CSV文件"))
-        self.colonLoadModel.setText(_translate("MainWindow", "载入预训练模型"))
+        self.colonLoadModel.setText(_translate("MainWindow", "载入权重文件"))
         self.colonBatchClear.setText(_translate("MainWindow", "清  除"))
         self.colon.setTabText(self.colon.indexOf(self.Colon), _translate("MainWindow", "结肠癌预测"))
-        self.colon.setTabText(self.colon.indexOf(self.tab_2), _translate("MainWindow", "Tab 2"))
+

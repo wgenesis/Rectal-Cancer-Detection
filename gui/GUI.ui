@@ -240,7 +240,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>载入预训练模型</string>
+       <string>载入权重文件</string>
       </property>
      </widget>
      <widget class="QPushButton" name="colonBatchClear">
@@ -256,11 +256,6 @@
        <string>清  除</string>
       </property>
      </widget>
-    </widget>
-    <widget class="QWidget" name="tab_2">
-     <attribute name="title">
-      <string>Tab 2</string>
-     </attribute>
     </widget>
    </widget>
    <widget class="QTextEdit" name="message">
@@ -279,16 +274,6 @@
      <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>963</width>
-     <height>23</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

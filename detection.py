@@ -89,6 +89,7 @@ class MyWindow(QMainWindow, Ui_MainWindow, QWidget):
                 result=predict(self.image,self.colonModel,125,self.frame)
             except Exception as e:
                 print('traceback.format_exc():\n%s' % traceback.format_exc())
+            print(result)
             self.colonSinglePredict_text.setText(str(result))
 
     def displayImage(self):
