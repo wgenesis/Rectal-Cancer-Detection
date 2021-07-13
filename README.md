@@ -30,3 +30,10 @@ numpy
 ## 环境
 
 CUDA=10.02
+
+
+
+## 数据集
+
+链接：https://pan.baidu.com/s/1vueCPg01Q6PLJeGod9H7jA 
+提取码：2uou 
