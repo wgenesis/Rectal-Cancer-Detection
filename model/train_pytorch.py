@@ -5,7 +5,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
 import torch.optim as optim
-import numpy as np
 from torchsummary import summary
 
 device = torch.device('cuda:0')
