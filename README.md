@@ -1,5 +1,5 @@
 # Rectal-Cancer-Detection
-![](E:\projects\Rectal-Cancer-Detection\images\ui.png)
+![](https://github.com/WeiHYDavid/Rectal-Cancer-Detection/blob/main/images/ui.png)
 
 
 
